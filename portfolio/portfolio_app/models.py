@@ -66,6 +66,7 @@ class Project(models.Model):
     project_start_date = models.DateField(
         blank=False
     )
+    project_image = models.ImageField(upload_to='images/', blank=True)
 
     PSTATUS_CHOICES = [
         ('K', "Kuriamas"),

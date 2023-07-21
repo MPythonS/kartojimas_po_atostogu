@@ -1,3 +1,30 @@
 {% extends "base.html" %}
 
 {% block title %} Projektai {% endblock %}
+
+{% block content %}
+    <h1>Projektai</h1>
+    {% for project in projects %}
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.project_resume }}</p>
+        <p>{{ project.utl }}</p>
+        <p>{{ project.utl1 }}</p>
+        <p>{{ project.utl2 }}</p>
+        <p>{{ project.utl3 }}</p>
+        <p>{{ project.utl4 }}</p>
+        <p>{{ project.utl5 }}</p>
+        <p>{{ project.utl6 }}</p>
+        <p>{{ project.utl7 }}</p>
+        <p>{{ project.project_start_date }}</p>
+        <p>{{ project.c_remarks }}</p>
+        <p>{{ project.c_created_at }}</p>
+        <p>{{ project.c_updated_at }}</p>
+
+<!--        {% load static %}-->
+<!--        <img src="{% static 'portfolio_app/images/alus.jpg' %}"-->
+<!--             alt="My image">-->
+        <img src="{{project.project_image.url}}" alt="My Image">
+        <p>{{ project.url }}</p>
+    {% endfor %}
+{% endblock %}
+
