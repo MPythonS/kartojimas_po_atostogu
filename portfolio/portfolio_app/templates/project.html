@@ -28,8 +28,6 @@
 
 
         {% load static %}
-        <img src="{% static 'portfolio_app/images/alus.jpg' %}"
-             alt="My image">
         <img src="{{ project.project_image.url }}" alt="My Image">
         <p>{{ project.url }}</p>
     {% endfor %}

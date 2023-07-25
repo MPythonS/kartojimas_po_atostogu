@@ -56,7 +56,6 @@ def input_view(request):
 
         project_image = request.FILES.get('project_image')
         if project_image:
-            print('Yra paveikslėlis')
             project.project_image = project_image
         project.save()
 
