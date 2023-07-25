@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Įvestis</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="title">Pavadinimas:</label>
+        <input type="text" id="title" name="title" required>
+        <br>
+        <label for="project_resume">Projekto aprašymas:</label>
+        <input type="text" id="project_resume" name="project_resume" required>
+        <br>
+        <label for="utl">Technologijos:</label>
+        <select id="utl" name="utl" required>
+            <option value="PT">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JavaScript</option>
+            <option value="JSON">JSON</option>
+            <option value="SQ">SQlite</option>
+            <option value="DJ">Django</option>
+            <option value="DK">Docker</option>
+            <option value="TK">TKInter</option>
+            <option value="API">API</option>
+            <option value="WS">Web Scraping</option>
+            <option value="GT">GIT</option>
+            <option value="GH">GitHub</option>
+            <!-- Pridėkite likusias technologijų reikšmes pagal savo modelio CHOICES -->
+        </select>
+        <br>
+        <label for="utl1">Naudota technologija (sekanti):</label>
+        <select id="utl1" name="utl1" required>
+            <option value="BL"></option>
+            <option value="PT">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JavaScript</option>
+            <option value="JSON">JSON</option>
+            <option value="SQ">SQlite</option>
+            <option value="DJ">Django</option>
+            <option value="DK">Docker</option>
+            <option value="TK">TKInter</option>
+            <option value="API">API</option>
+            <option value="WS">Web Scraping</option>
+            <option value="GT">GIT</option>
+            <option value="GH">GitHub</option>
+        </select>
+        <br>
+        <label for="utl2">Naudota technologija (sekanti):</label>
+        <select id="utl2" name="utl2" required>
+            <option value="BL"></option>
+            <option value="PT">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JavaScript</option>
+            <option value="JSON">JSON</option>
+            <option value="SQ">SQlite</option>
+            <option value="DJ">Django</option>
+            <option value="DK">Docker</option>
+            <option value="TK">TKInter</option>
+            <option value="API">API</option>
+            <option value="WS">Web Scraping</option>
+            <option value="GT">GIT</option>
+            <option value="GH">GitHub</option>
+        </select>
+        <br>
+        <label for="utl3">Naudota technologija (sekanti):</label>
+        <select id="utl3" name="utl3" required>
+            <option value="BL"></option>
+            <option value="PT">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JavaScript</option>
+            <option value="JSON">JSON</option>
+            <option value="SQ">SQlite</option>
+            <option value="DJ">Django</option>
+            <option value="DK">Docker</option>
+            <option value="TK">TKInter</option>
+            <option value="API">API</option>
+            <option value="WS">Web Scraping</option>
+            <option value="GT">GIT</option>
+            <option value="GH">GitHub</option>
+        </select>
+        <br>
+        <label for="utl4">Naudota technologija (sekanti):</label>
+        <select id="utl4" name="utl4" required>
+            <option value="BL"></option>
+            <option value="PT">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JavaScript</option>
+            <option value="JSON">JSON</option>
+            <option value="SQ">SQlite</option>
+            <option value="DJ">Django</option>
+            <option value="DK">Docker</option>
+            <option value="TK">TKInter</option>
+            <option value="API">API</option>
+            <option value="WS">Web Scraping</option>
+            <option value="GT">GIT</option>
+            <option value="GH">GitHub</option>
+        </select>
+        <br>
+        <label for="utl5">Naudota technologija (sekanti):</label>
+        <select id="utl5" name="utl5" required>
+            <option value="BL"></option>
+            <option value="PT">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JavaScript</option>
+            <option value="JSON">JSON</option>
+            <option value="SQ">SQlite</option>
+            <option value="DJ">Django</option>
+            <option value="DK">Docker</option>
+            <option value="TK">TKInter</option>
+            <option value="API">API</option>
+            <option value="WS">Web Scraping</option>
+            <option value="GT">GIT</option>
+            <option value="GH">GitHub</option>
+        </select>
+        <br>
+        <label for="utl6">Naudota technologija (sekanti):</label>
+        <select id="utl6" name="utl6" required>
+            <option value="BL"></option>
+            <option value="PT">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JavaScript</option>
+            <option value="JSON">JSON</option>
+            <option value="SQ">SQlite</option>
+            <option value="DJ">Django</option>
+            <option value="DK">Docker</option>
+            <option value="TK">TKInter</option>
+            <option value="API">API</option>
+            <option value="WS">Web Scraping</option>
+            <option value="GT">GIT</option>
+            <option value="GH">GitHub</option>
+        </select>
+        <br>
+        <label for="utl7">Naudota technologija (sekanti):</label>
+        <select id="utl7" name="utl7" required>
+            <option value="BL"></option>
+            <option value="PT">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JavaScript</option>
+            <option value="JSON">JSON</option>
+            <option value="SQ">SQlite</option>
+            <option value="DJ">Django</option>
+            <option value="DK">Docker</option>
+            <option value="TK">TKInter</option>
+            <option value="API">API</option>
+            <option value="WS">Web Scraping</option>
+            <option value="GT">GIT</option>
+            <option value="GH">GitHub</option>
+        </select>
+        <br>
+        <label for="project_start_date">Projekto pradžios data:</label>
+        <input type="date" id="project_start_date" name="project_start_date" >
+        <br>
+        <label for="project_image">Projekto nuotrauka:</label>
+        <input type="file" id="project_image" name="project_image">
+        <br>
+        <label for="project_status">Projekto statusas:</label>
+        <select id="project_status" name="project_status" required>
+            <option value="K">Kuriamas</option>
+            <option value="U">Užbaigtas</option>
+        </select>
+        <br>
+        <label for="c_remarks">Komentarai:</label>
+        <input type="text" id="c_remarks" name="c_remarks">
+        <!-- Galima pridėti norimus laukus iš models.py čia -->
+
+        <input type="submit" value="Išsaugoti">
+    </form>
+</body>
+</html>

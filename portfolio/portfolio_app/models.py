@@ -15,7 +15,7 @@ class Project(models.Model):
         ('DK', 'Docker'),
         ('DJ', "Django"),
         ('JSON', "JSON"),
-        ('HT ', "HTML"),
+        ('HTML', "HTML"),
         ('TK ', "TKInter"),
         ('SQ', "SQlite"),
         ('API', "API"),
